@@ -1,5 +1,27 @@
-<h1 class= "text-danger"> Angular Blog App </h1>
-<h2 class= "text-primary"> Angular Blog App </h2>
-<h3 class= "text-secondary"> Angular Blog App </h3>
-<h4 class= "text-success bg-dark" > Angular Blog App </h4>
+<h1 class="text-danger">Angular Blog App</h1>
+<h1 class="text-primary">Angular Blog App</h1>
+<h3 class="text-secondary">Angular Blog App</h3>
+<h4 class="text-success bg-dark">Angular Blog App</h4>
+
+<router-outlet></router-outlet>
+
+<p>App Component</p>
+
+<h2>{{ title }}</h2>
+<h3>{{ title }}</h3>
+<h4>{{ title }}</h4>
+
+<app-header>{{ title }}</app-header>
+
+<app-header></app-header>
+
+<app-category-navbar></app-category-navbar>
+
+<div class="app-body">
+  <app-post-card></app-post-card>
+  <app-subscription-form></app-subscription-form>
+</div>
+
+<app-footer></app-footer>
+
 <router-outlet></router-outlet>
